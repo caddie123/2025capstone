@@ -1,0 +1,67 @@
+1. sdk 설치
+
+sudo add-apt-repository universe
+sudo apt update
+
+cd ~/Downloads
+wget http://mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.1.0-1_amd64.deb
+sudo dpkg -i libsoundio1_1.1.0-1_amd64.deb
+# 만약 의존성 오류가 발생하면 다음 명령 실행
+sudo apt --fix-broken install -y
+
+cd ~/Downloads
+
+# (1) libk4a1.4 런타임 라이브러리
+wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4a1.4/libk4a1.4_1.4.2_amd64.deb
+
+# (2) libk4a1.4-dev 개발 헤더
+wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4a1.4-dev/libk4a1.4-dev_1.4.2_amd64.deb
+
+# (3) k4a-tools (k4aviewer, k4arecorder 등 실행 파일)
+wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/k/k4a-tools/k4a-tools_1.4.2_amd64.deb
+
+cd ~/Downloads
+
+# (1) 런타임 라이브러리 설치
+sudo dpkg -i libk4a1.4_1.4.2_amd64.deb
+
+# (2) 개발 헤더 설치
+sudo dpkg -i libk4a1.4-dev_1.4.2_amd64.deb
+
+# (3) k4a-tools 설치
+sudo dpkg -i k4a-tools_1.4.2_amd64.deb
+
+# 의존성 자동 정리 (만약 누락된 패키지가 있으면)
+sudo apt --fix-broken install -y
+
+cd ~/Downloads
+wget https://raw.githubusercontent.com/microsoft/Azure-Kinect-Sensor-SDK/develop/scripts/99-k4a.rules
+sudo cp 99-k4a.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+
+# viewer 실행
+k4aviewer
+
+
+2. driver 설치
+
+cd ~/ros2_ws/src
+git clone https://github.com/ckennedy2050/Azure_Kinect_ROS2_Driver.git
+
+source /opt/ros/humble/setup.bash
+
+cd ~/ros2_ws
+rosdep update
+rosdep install --from-paths src/Azure_Kinect_ROS2_Driver --ignore-src -r -y
+
+cd ~/ros2_ws
+colcon build --symlink-install --packages-select azure_kinect_ros2_driver
+
+
+3. 드라이버 실행 예시
+
+source /opt/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+ros2 run azure_kinect_ros2_driver azure_kinect_ros2_node
