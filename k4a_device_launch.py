@@ -54,6 +54,11 @@ def generate_launch_description():
                 {"frame_id": "camera_base"},   # RViz Fixed Frame 과 동일
                 {"resolution": 0.1},
                 {"publish_2d_map": True},            # 2D 맵도 함께 퍼블리시
+                {"sensor_model/max_range": 5.0},    # 최대 삽입 거리 (m)
+                {"publish_free_space": True},    # free-space 업데이트 활성화 :contentReference[oaicite:1]{index=1}
+                {'sensor_model/raytrace_range': 5.0},
+                {'sensor_model/min_range':     0.2},
+                {'publish_period':            0.5},
             ],
             remappings=[
                 ("cloud_in", "/filtered_points"),
