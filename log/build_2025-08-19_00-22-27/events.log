@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (md_controller) JobQueued: {'identifier': 'md_controller', 'dependencies': OrderedDict()}
+[0.000850] (md_teleop) JobQueued: {'identifier': 'md_teleop', 'dependencies': OrderedDict()}
+[0.000876] (md_controller) JobStarted: {'identifier': 'md_controller'}
+[0.006526] (md_teleop) JobStarted: {'identifier': 'md_teleop'}
+[0.011348] (md_controller) JobProgress: {'identifier': 'md_controller', 'progress': 'cmake'}
+[0.012172] (md_controller) JobProgress: {'identifier': 'md_controller', 'progress': 'build'}
+[0.012233] (md_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/go/motor_ws/build/md_controller', '--', '-j16', '-l16'], 'cwd': '/home/go/motor_ws/build/md_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'go'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/go'), ('OLDPWD', '/home/go'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1487'), ('SYSTEMD_EXEC_PID', '2082'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28554'), ('COLCON_PREFIX_PATH', '/home/go/motor_ws/install:/home/go/ros2_ws/install:/home/go/ros2_ws/src/human_tracker/install:/home/go/ros2_ws/src/sim_test/install:/home/go/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'go'), ('JOURNAL_STREAM', '8:12992'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'go'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/go/.gazebo/models:/home/go/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/go/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/go/.local/bin'), ('SESSION_MANAGER', 'local/TUFA14:@/tmp/.ICE-unix/1822,unix/TUFA14:/tmp/.ICE-unix/1822'), ('INVOCATION_ID', '3f1e05d808c046b4a09d9b309027e461'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/go/motor_ws/install/md_teleop:/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/install/md_controller:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b5b3137e-4ed3-4de7-9e27-0157be3368e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/go/motor_ws/build/md_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages:/home/go/ros2_ws/src/sim_test/install/sim_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble')]), 'shell': False}
+[0.086801] (md_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/md_controller.dir/src/md_controller.cpp.o\x1b[0m\n'}
+[0.099756] (-) TimerEvent: {}
+[0.200240] (-) TimerEvent: {}
+[0.300904] (-) TimerEvent: {}
+[0.401449] (-) TimerEvent: {}
+[0.502057] (-) TimerEvent: {}
+[0.603377] (-) TimerEvent: {}
+[0.689931] (md_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/md_teleop', 'build', '--build-base', '/home/go/motor_ws/build/md_teleop/build', 'install', '--record', '/home/go/motor_ws/build/md_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/go/motor_ws/src/md_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'go', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/go', 'OLDPWD': '/home/go', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1487', 'SYSTEMD_EXEC_PID': '2082', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '28554', 'COLCON_PREFIX_PATH': '/home/go/motor_ws/install:/home/go/ros2_ws/install:/home/go/ros2_ws/src/human_tracker/install:/home/go/ros2_ws/src/sim_test/install:/home/go/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'go', 'JOURNAL_STREAM': '8:12992', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'go', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/go/.gazebo/models:/home/go/.gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/go/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/go/.local/bin', 'SESSION_MANAGER': 'local/TUFA14:@/tmp/.ICE-unix/1822,unix/TUFA14:/tmp/.ICE-unix/1822', 'INVOCATION_ID': '3f1e05d808c046b4a09d9b309027e461', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/go/motor_ws/install/md_teleop:/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/install/md_controller:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b5b3137e-4ed3-4de7-9e27-0157be3368e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/go/motor_ws/build/md_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/go/motor_ws/build/md_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages:/home/go/ros2_ws/src/sim_test/install/sim_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_controller'}, 'shell': False}
+[0.703436] (-) TimerEvent: {}
+[0.803983] (-) TimerEvent: {}
+[0.904478] (-) TimerEvent: {}
+[0.913088] (md_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[0.913650] (md_teleop) StdoutLine: {'line': b'writing ../../build/md_teleop/md_teleop.egg-info/PKG-INFO\n'}
+[0.913937] (md_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/md_teleop/md_teleop.egg-info/dependency_links.txt\n'}
+[0.914169] (md_teleop) StdoutLine: {'line': b'writing entry points to ../../build/md_teleop/md_teleop.egg-info/entry_points.txt\n'}
+[0.914294] (md_teleop) StdoutLine: {'line': b'writing requirements to ../../build/md_teleop/md_teleop.egg-info/requires.txt\n'}
+[0.914330] (md_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/md_teleop/md_teleop.egg-info/top_level.txt\n'}
+[0.915812] (md_teleop) StdoutLine: {'line': b"reading manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'\n"}
+[0.916395] (md_teleop) StdoutLine: {'line': b"writing manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'\n"}
+[0.916594] (md_teleop) StdoutLine: {'line': b'running build\n'}
+[0.916661] (md_teleop) StdoutLine: {'line': b'running build_py\n'}
+[0.916747] (md_teleop) StdoutLine: {'line': b'running install\n'}
+[0.917383] (md_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[0.919177] (md_teleop) StdoutLine: {'line': b'running install_data\n'}
+[0.919286] (md_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.920793] (md_teleop) StdoutLine: {'line': b"removing '/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.921141] (md_teleop) StdoutLine: {'line': b'Copying ../../build/md_teleop/md_teleop.egg-info to /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop-0.0.0-py3.10.egg-info\n'}
+[0.921951] (md_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[0.950927] (md_teleop) StdoutLine: {'line': b'Installing md_teleop_key_node script to /home/go/motor_ws/install/md_teleop/lib/md_teleop\n'}
+[0.951490] (md_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/go/motor_ws/build/md_teleop/install.log'\n"}
+[1.004645] (-) TimerEvent: {}
+[1.045995] (md_teleop) CommandEnded: {'returncode': 0}
+[1.057561] (md_teleop) JobEnded: {'identifier': 'md_teleop', 'rc': 0}
+[1.105305] (-) TimerEvent: {}
+[1.206343] (-) TimerEvent: {}
+[1.306991] (-) TimerEvent: {}
+[1.408024] (-) TimerEvent: {}
+[1.509433] (-) TimerEvent: {}
+[1.610071] (-) TimerEvent: {}
+[1.711004] (-) TimerEvent: {}
+[1.812254] (-) TimerEvent: {}
+[1.912802] (-) TimerEvent: {}
+[2.013306] (-) TimerEvent: {}
+[2.114632] (-) TimerEvent: {}
+[2.215394] (-) TimerEvent: {}
+[2.315935] (-) TimerEvent: {}
+[2.417077] (-) TimerEvent: {}
+[2.518062] (-) TimerEvent: {}
+[2.618658] (-) TimerEvent: {}
+[2.719284] (-) TimerEvent: {}
+[2.819785] (-) TimerEvent: {}
+[2.920238] (-) TimerEvent: {}
+[3.020631] (-) TimerEvent: {}
+[3.120979] (-) TimerEvent: {}
+[3.160301] (md_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.160557] (md_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:99:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.160648] (md_controller) StderrLine: {'line': b'   99 |                     auto \x1b[01;35m\x1b[Kend\x1b[m\x1b[K = std::chrono::high_resolution_clock::now();\n'}
+[3.160720] (md_controller) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.221087] (-) TimerEvent: {}
+[3.321453] (-) TimerEvent: {}
+[3.421829] (-) TimerEvent: {}
+[3.522198] (-) TimerEvent: {}
+[3.622615] (-) TimerEvent: {}
+[3.723033] (-) TimerEvent: {}
+[3.823423] (-) TimerEvent: {}
+[3.923849] (-) TimerEvent: {}
+[4.024223] (-) TimerEvent: {}
+[4.124525] (-) TimerEvent: {}
+[4.224836] (-) TimerEvent: {}
+[4.325322] (-) TimerEvent: {}
+[4.425687] (-) TimerEvent: {}
+[4.526065] (-) TimerEvent: {}
+[4.626441] (-) TimerEvent: {}
+[4.726779] (-) TimerEvent: {}
+[4.827045] (-) TimerEvent: {}
+[4.927379] (-) TimerEvent: {}
+[5.027698] (-) TimerEvent: {}
+[5.128026] (-) TimerEvent: {}
+[5.228332] (-) TimerEvent: {}
+[5.328795] (-) TimerEvent: {}
+[5.430246] (-) TimerEvent: {}
+[5.530730] (-) TimerEvent: {}
+[5.631237] (-) TimerEvent: {}
+[5.731746] (-) TimerEvent: {}
+[5.832277] (-) TimerEvent: {}
+[5.932854] (-) TimerEvent: {}
+[6.033404] (-) TimerEvent: {}
+[6.133912] (-) TimerEvent: {}
+[6.234384] (-) TimerEvent: {}
+[6.334698] (-) TimerEvent: {}
+[6.435042] (-) TimerEvent: {}
+[6.535383] (-) TimerEvent: {}
+[6.635722] (-) TimerEvent: {}
+[6.736065] (-) TimerEvent: {}
+[6.836405] (-) TimerEvent: {}
+[6.936756] (-) TimerEvent: {}
+[7.037134] (-) TimerEvent: {}
+[7.125181] (md_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable md_controller\x1b[0m\n'}
+[7.137238] (-) TimerEvent: {}
+[7.237575] (-) TimerEvent: {}
+[7.337976] (-) TimerEvent: {}
+[7.391152] (md_controller) StdoutLine: {'line': b'[100%] Built target md_controller\n'}
+[7.401698] (md_controller) CommandEnded: {'returncode': 0}
+[7.402681] (md_controller) JobProgress: {'identifier': 'md_controller', 'progress': 'install'}
+[7.411800] (md_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/go/motor_ws/build/md_controller'], 'cwd': '/home/go/motor_ws/build/md_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'go'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/go'), ('OLDPWD', '/home/go'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1487'), ('SYSTEMD_EXEC_PID', '2082'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28554'), ('COLCON_PREFIX_PATH', '/home/go/motor_ws/install:/home/go/ros2_ws/install:/home/go/ros2_ws/src/human_tracker/install:/home/go/ros2_ws/src/sim_test/install:/home/go/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'go'), ('JOURNAL_STREAM', '8:12992'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'go'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/go/.gazebo/models:/home/go/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/go/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/go/.local/bin'), ('SESSION_MANAGER', 'local/TUFA14:@/tmp/.ICE-unix/1822,unix/TUFA14:/tmp/.ICE-unix/1822'), ('INVOCATION_ID', '3f1e05d808c046b4a09d9b309027e461'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/go/motor_ws/install/md_teleop:/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/install/md_controller:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b5b3137e-4ed3-4de7-9e27-0157be3368e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/go/motor_ws/build/md_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/install/md_teleop/lib/python3.10/site-packages:/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages:/home/go/ros2_ws/src/sim_test/install/sim_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/go/motor_ws/install/md_controller:/home/go/ros2_ws/install/md_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble')]), 'shell': False}
+[7.418512] (md_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.418805] (md_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.419138] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/launch/md_controller.launch.py\n'}
+[7.419312] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/rviz/md.rviz\n'}
+[7.419746] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/include/md_controller/com.hpp\n'}
+[7.419882] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/lib/md_controller/md_controller\n'}
+[7.419984] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/package_run_dependencies/md_controller\n'}
+[7.420078] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/parent_prefix_path/md_controller\n'}
+[7.420170] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.sh\n'}
+[7.420249] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.dsv\n'}
+[7.420333] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.sh\n'}
+[7.420407] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.dsv\n'}
+[7.420477] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.bash\n'}
+[7.420548] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.sh\n'}
+[7.420619] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.zsh\n'}
+[7.420688] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.dsv\n'}
+[7.420735] (md_controller) StdoutLine: {'line': b'-- Symlinking: /home/go/motor_ws/install/md_controller/share/md_controller/package.dsv\n'}
+[7.429430] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/packages/md_controller\n'}
+[7.429693] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig.cmake\n'}
+[7.429802] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig-version.cmake\n'}
+[7.429853] (md_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/package.xml\n'}
+[7.431223] (md_controller) CommandEnded: {'returncode': 0}
+[7.438163] (-) TimerEvent: {}
+[7.440002] (md_controller) JobEnded: {'identifier': 'md_controller', 'rc': 0}
+[7.440560] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target md_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/md_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/com.cpp.o[0m
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:[m[K In function ‘[01m[Kint PutMdData(BYTE, BYTE, int, int*)[m[K’:
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:53:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |     IByte [01;35m[KiData[m[K;
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:[m[K In function ‘[01m[Kint MdReceiveProc()[m[K’:
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvRMID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  137 |     BYTE [01;35m[KbyRcvRMID[m[K, byRcvTMID, byRcvID, byRcvPID, byRcvDataSize;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvTMID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  137 |     BYTE byRcvRMID, [01;35m[KbyRcvTMID[m[K, byRcvID, byRcvPID, byRcvDataSize;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:32:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  137 |     BYTE byRcvRMID, byRcvTMID, [01;35m[KbyRcvID[m[K, byRcvPID, byRcvDataSize;
+      |                                [01;35m[K^~~~~~~[m[K
+[01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:51:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvDataSize[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  137 |     BYTE byRcvRMID, byRcvTMID, byRcvID, byRcvPID, [01;35m[KbyRcvDataSize[m[K;
+      |                                                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[KComSetDebug[m[K’ was not declared in this scope
+   22 |     [01;31m[KComSetDebug[m[K(true);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/md_controller.dir/build.make:76: CMakeFiles/md_controller.dir/src/md_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/md_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/go/motor_ws/build/md_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/motor_ws/install/motor_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/sim_test:/home/go/ros2_ws/install/human_tracker:/home/go/ros2_ws/install/golf_simulation:/home/go/ros2_ws/install/depth_map:/home/go/ros2_ws/install/camera_calibration:/home/go/ros2_ws/install/caddie_urdf:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --build /home/go/motor_ws/build/md_controller -- -j16 -l16
+[0.319s] [ 33%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/md_controller.cpp.o[0m
+[3.153s] [01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.153s] [01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.153s]    74 |     IByte [01;35m[KiData[m[K;
+[3.153s]       |           [01;35m[K^~~~~[m[K
+[7.342s] [ 66%] [32m[1mLinking CXX executable md_controller[0m
+[7.646s] [100%] Built target md_controller
+[7.658s] Invoked command in '/home/go/motor_ws/build/md_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/motor_ws/install/motor_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/sim_test:/home/go/ros2_ws/install/human_tracker:/home/go/ros2_ws/install/golf_simulation:/home/go/ros2_ws/install/depth_map:/home/go/ros2_ws/install/camera_calibration:/home/go/ros2_ws/install/caddie_urdf:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --build /home/go/motor_ws/build/md_controller -- -j16 -l16
+[7.667s] Invoking command in '/home/go/motor_ws/build/md_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/motor_ws/install/motor_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/sim_test:/home/go/ros2_ws/install/human_tracker:/home/go/ros2_ws/install/golf_simulation:/home/go/ros2_ws/install/depth_map:/home/go/ros2_ws/install/camera_calibration:/home/go/ros2_ws/install/caddie_urdf:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --install /home/go/motor_ws/build/md_controller
+[7.675s] -- Install configuration: ""
+[7.675s] -- Execute custom install script
+[7.675s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/launch/md_controller.launch.py
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/rviz/md.rviz
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/include/md_controller/com.hpp
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/lib/md_controller/md_controller
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/package_run_dependencies/md_controller
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/parent_prefix_path/md_controller
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.sh
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.dsv
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.sh
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.dsv
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.bash
+[7.676s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.sh
+[7.677s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.zsh
+[7.677s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.dsv
+[7.677s] -- Symlinking: /home/go/motor_ws/install/md_controller/share/md_controller/package.dsv
+[7.687s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/packages/md_controller
+[7.687s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig.cmake
+[7.687s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig-version.cmake
+[7.687s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/package.xml
+[7.688s] Invoked command in '/home/go/motor_ws/build/md_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/motor_ws/install/motor_controller:/home/go/motor_ws/install/md_teleop:/home/go/ros2_ws/install/sim_test:/home/go/ros2_ws/install/human_tracker:/home/go/ros2_ws/install/golf_simulation:/home/go/ros2_ws/install/depth_map:/home/go/ros2_ws/install/camera_calibration:/home/go/ros2_ws/install/caddie_urdf:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --install /home/go/motor_ws/build/md_controller

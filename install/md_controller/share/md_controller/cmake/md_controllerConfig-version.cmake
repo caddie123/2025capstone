@@ -1,0 +1,1 @@
+/home/go/motor_ws/build/md_controller/ament_cmake_core/md_controllerConfig-version.cmake

@@ -1,0 +1,32 @@
+running develop
+Removing /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md-teleop.egg-link (link to .)
+running egg_info
+writing ../../build/md_teleop/md_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/md_teleop/md_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/md_teleop/md_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/md_teleop/md_teleop.egg-info/requires.txt
+writing top-level names to ../../build/md_teleop/md_teleop.egg-info/top_level.txt
+reading manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/go/motor_ws/build/md_teleop/build
+creating /home/go/motor_ws/build/md_teleop/build/lib
+creating /home/go/motor_ws/build/md_teleop/build/lib/md_teleop
+copying md_teleop/__init__.py -> /home/go/motor_ws/build/md_teleop/build/lib/md_teleop
+copying md_teleop/md_teleop_key.py -> /home/go/motor_ws/build/md_teleop/build/lib/md_teleop
+running install
+running install_lib
+creating /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop
+copying /home/go/motor_ws/build/md_teleop/build/lib/md_teleop/__init__.py -> /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop
+copying /home/go/motor_ws/build/md_teleop/build/lib/md_teleop/md_teleop_key.py -> /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop
+byte-compiling /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop/md_teleop_key.py to md_teleop_key.cpython-310.pyc
+running install_data
+copying resource/md_teleop -> /home/go/motor_ws/install/md_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/go/motor_ws/install/md_teleop/share/md_teleop
+running install_egg_info
+Copying ../../build/md_teleop/md_teleop.egg-info to /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing md_teleop_key_node script to /home/go/motor_ws/install/md_teleop/lib/md_teleop
+writing list of installed files to '/home/go/motor_ws/build/md_teleop/install.log'

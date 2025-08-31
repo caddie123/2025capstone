@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target md_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/md_controller.cpp.o[0m
+[01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[KComSetDebug[m[K’ was not declared in this scope
+   22 |     [01;31m[KComSetDebug[m[K(true);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/md_controller.dir/build.make:76: CMakeFiles/md_controller.dir/src/md_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/md_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

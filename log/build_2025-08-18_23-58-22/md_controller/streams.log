@@ -1,0 +1,81 @@
+[0.010s] Invoking command in '/home/go/motor_ws/build/md_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake /home/go/motor_ws/src/md_controller -DCMAKE_INSTALL_PREFIX=/home/go/motor_ws/install/md_controller
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.109s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.164s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.274s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.280s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[0.281s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.324s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.334s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.385s] -- Configured cppcheck include dirs: /home/go/motor_ws/src/md_controller/include
+[0.385s] -- Configured cppcheck exclude dirs and/or files: 
+[0.385s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.385s] -- Added test 'lint_cmake' to check CMake code style
+[0.385s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.386s] -- Added test 'uncrustify' to check C / C++ code style
+[0.386s] -- Configured uncrustify additional arguments: 
+[0.386s] -- Added test 'xmllint' to check XML markup files
+[0.386s] -- Configuring done
+[0.394s] -- Generating done
+[0.397s] -- Build files have been written to: /home/go/motor_ws/build/md_controller
+[0.404s] Invoked command in '/home/go/motor_ws/build/md_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake /home/go/motor_ws/src/md_controller -DCMAKE_INSTALL_PREFIX=/home/go/motor_ws/install/md_controller
+[0.406s] Invoking command in '/home/go/motor_ws/build/md_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --build /home/go/motor_ws/build/md_controller -- -j16 -l16
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target md_controller[0m
+[0.462s] [ 66%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/md_controller.cpp.o[0m
+[0.462s] [ 66%] [32mBuilding CXX object CMakeFiles/md_controller.dir/src/com.cpp.o[0m
+[2.042s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:[m[K In function ‘[01m[Kint PutMdData(BYTE, BYTE, int, int*)[m[K’:
+[2.042s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:53:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.042s]    53 |     IByte [01;35m[KiData[m[K;
+[2.042s]       |           [01;35m[K^~~~~[m[K
+[2.043s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:[m[K In function ‘[01m[Kint MdReceiveProc()[m[K’:
+[2.043s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvRMID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.043s]   137 |     BYTE [01;35m[KbyRcvRMID[m[K, byRcvTMID, byRcvID, byRcvPID, byRcvDataSize;
+[2.043s]       |          [01;35m[K^~~~~~~~~[m[K
+[2.043s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvTMID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.043s]   137 |     BYTE byRcvRMID, [01;35m[KbyRcvTMID[m[K, byRcvID, byRcvPID, byRcvDataSize;
+[2.043s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.043s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:32:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvID[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.043s]   137 |     BYTE byRcvRMID, byRcvTMID, [01;35m[KbyRcvID[m[K, byRcvPID, byRcvDataSize;
+[2.043s]       |                                [01;35m[K^~~~~~~[m[K
+[2.043s] [01m[K/home/go/motor_ws/src/md_controller/src/com.cpp:137:51:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KbyRcvDataSize[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.043s]   137 |     BYTE byRcvRMID, byRcvTMID, byRcvID, byRcvPID, [01;35m[KbyRcvDataSize[m[K;
+[2.043s]       |                                                   [01;35m[K^~~~~~~~~~~~~[m[K
+[2.074s] [01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.074s] [01m[K/home/go/motor_ws/src/md_controller/src/md_controller.cpp:97:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kend[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.074s]    97 |                     auto [01;35m[Kend[m[K = std::chrono::high_resolution_clock::now();
+[2.074s]       |                          [01;35m[K^~~[m[K
+[5.732s] [100%] [32m[1mLinking CXX executable md_controller[0m
+[6.003s] [100%] Built target md_controller
+[6.012s] Invoked command in '/home/go/motor_ws/build/md_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --build /home/go/motor_ws/build/md_controller -- -j16 -l16
+[6.020s] Invoking command in '/home/go/motor_ws/build/md_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --install /home/go/motor_ws/build/md_controller
+[6.025s] -- Install configuration: ""
+[6.025s] -- Execute custom install script
+[6.025s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/launch/md_controller.launch.py
+[6.025s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/rviz/md.rviz
+[6.025s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/include/md_controller/com.hpp
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/lib/md_controller/md_controller
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/package_run_dependencies/md_controller
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/parent_prefix_path/md_controller
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.sh
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/ament_prefix_path.dsv
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.sh
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/environment/path.dsv
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.bash
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.sh
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.zsh
+[6.026s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/local_setup.dsv
+[6.026s] -- Symlinking: /home/go/motor_ws/install/md_controller/share/md_controller/package.dsv
+[6.033s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/ament_index/resource_index/packages/md_controller
+[6.033s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig.cmake
+[6.033s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/cmake/md_controllerConfig-version.cmake
+[6.033s] -- Up-to-date symlink: /home/go/motor_ws/install/md_controller/share/md_controller/package.xml
+[6.034s] Invoked command in '/home/go/motor_ws/build/md_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/go/ros2_ws/install/md_teleop:/home/go/ros2_ws/src/human_tracker/install/human_tracker:/home/go/ros2_ws/src/sim_test/install/sim_test:/opt/ros/humble /usr/bin/cmake --install /home/go/motor_ws/build/md_controller

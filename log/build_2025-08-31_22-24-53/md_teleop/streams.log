@@ -1,0 +1,23 @@
+[1.083s] Invoking command in '/home/go/motor_ws/src/md_teleop': PYTHONPATH=/home/go/motor_ws/build/md_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/md_teleop build --build-base /home/go/motor_ws/build/md_teleop/build install --record /home/go/motor_ws/build/md_teleop/install.log --single-version-externally-managed install_data
+[1.315s] running egg_info
+[1.316s] writing ../../build/md_teleop/md_teleop.egg-info/PKG-INFO
+[1.316s] writing dependency_links to ../../build/md_teleop/md_teleop.egg-info/dependency_links.txt
+[1.316s] writing entry points to ../../build/md_teleop/md_teleop.egg-info/entry_points.txt
+[1.316s] writing requirements to ../../build/md_teleop/md_teleop.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/md_teleop/md_teleop.egg-info/top_level.txt
+[1.318s] reading manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'
+[1.319s] writing manifest file '../../build/md_teleop/md_teleop.egg-info/SOURCES.txt'
+[1.319s] running build
+[1.319s] running build_py
+[1.319s] running install
+[1.320s] running install_lib
+[1.321s] running install_data
+[1.321s] running install_egg_info
+[1.323s] removing '/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[1.324s] Copying ../../build/md_teleop/md_teleop.egg-info to /home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages/md_teleop-0.0.0-py3.10.egg-info
+[1.324s] running install_scripts
+[1.353s] Installing md_teleop_key_node script to /home/go/motor_ws/install/md_teleop/lib/md_teleop
+[1.353s] Installing teleop script to /home/go/motor_ws/install/md_teleop/lib/md_teleop
+[1.353s] Installing test script to /home/go/motor_ws/install/md_teleop/lib/md_teleop
+[1.353s] writing list of installed files to '/home/go/motor_ws/build/md_teleop/install.log'
+[1.483s] Invoked command in '/home/go/motor_ws/src/md_teleop' returned '0': PYTHONPATH=/home/go/motor_ws/build/md_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/motor_ws/install/md_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/md_teleop build --build-base /home/go/motor_ws/build/md_teleop/build install --record /home/go/motor_ws/build/md_teleop/install.log --single-version-externally-managed install_data
