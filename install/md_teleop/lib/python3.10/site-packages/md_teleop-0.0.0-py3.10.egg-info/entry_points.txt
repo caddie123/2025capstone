@@ -1,5 +1,0 @@
-[console_scripts]
-md_teleop_key_node = md_teleop.md_teleop_key:main
-teleop = md_teleop.teleop:main
-test = md_teleop.test:main
-
